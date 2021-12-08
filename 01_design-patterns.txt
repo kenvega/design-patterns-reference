@@ -1,0 +1,121 @@
+source: Dive into design patterns book by Alexander Shvets
+
+Introduction To OOP
+
+  Basics of OOP
+    what is OOP
+      wrap data and related behavior to that data into a bundle
+      call that bundle an object
+      these objects are constructed based on a blueprint
+      the blueprints are defined by programmers and are called classes
+
+    objects, classes
+      wrapped data can have public or private visibility
+      data is categorized in fields
+        and it's normally standard common attributes from all objects
+      behavior related to that data is categorized in methods
+
+      data stored in object's fields is called state
+
+      classes are like a blueprint that gives you the steps to create objects
+        objects are instances of that class
+
+    class hierarchies
+      because sometimes different classes in fact might have things in common
+        e.g. Dog and Cat class have state (name, sex, age) and behavior (breathe) in common
+        we can create classes that have higher hierarchy
+
+    ULM diagrams reference
+      inheritance
+        indicated by arrows with empty triangle heads
+        the arrow goes from subclass to superclass
+        example: Cat -ᐅ Animal
+
+
+  Pillars of OOP
+
+  Relations Between Objects
+
+Introduction to design patterns
+
+  What's a Design Pattern?
+
+  Why Should I Learn Patterns?
+
+Software Design Principles
+
+  Features of Good Design
+
+  Design Principles
+
+    Encapsulate What Varies
+
+    Program to an Interface, not an Implementation
+
+    Favor Composition Over Inheritance
+
+  SOLID Principles
+
+    Single Responsibility Principle
+
+    Open/Closed Principle
+
+    Liskov Substitution Principle
+
+    Interface Segregation Principle
+
+    Dependency Inversion Principle
+
+Catalog of Design Patterns
+
+  Creational Design Patterns
+
+    Factory Method
+
+    Abstract Factory
+
+    Builder
+
+    Prototype
+
+    Singleton
+
+  Structural Design Patterns
+
+    Adapter
+
+    Bridge
+
+    Composite
+
+    Decorator
+
+    Facade
+
+    Flyweight
+
+    Proxy
+
+  Behavioral Design Patterns
+
+    Chain of Responsibility
+
+    Command
+
+    Iterator
+
+    Mediator
+
+    Memento
+
+    Observer
+
+    State
+
+    Strategy
+
+    Template Method
+
+    Visitor
+
+  Conclusion
